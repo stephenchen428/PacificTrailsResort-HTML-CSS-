@@ -1,0 +1,72 @@
+#wrapper {margin: auto;
+        background-color: #90C7E3;
+        min-width: 700px; max-width: 1024px;
+		padding: 20px;
+		box-shadow: 5px 5px 5px #1e1e1e;}
+		
+body {background: #ffffff;
+	background-image: url(background.jpg);
+	color: #666666
+	font-family:"Arial, Helvectia, Sans-Serif";}
+	
+header {background-color: #000033;
+	color: #FFFFFF;
+	font-family: Georgia;}
+	
+h1 {background: url(sunset.jpg) top right no-repeat; 
+	padding: 10px; 
+	font-family:"Georgia, Times New Roman, Serif";
+	color: #FFFFFF;
+	} 
+	
+#nav { float: left; width: 160px; padding-left: 20px;
+	padding-right: 5px; padding-top: 20px; 
+	padding-bottom: 5px; font-weight: bold; }
+#nav ul { list-style-type: none; margin: 0; padding-left: 0; font-size: 1.2em; }
+#nav a { text-decoration: none; }
+#nav a:link { color: #000033; }
+#nav a:visited { color: #344873; }
+#nav a:hover { color: #ffffff; }
+	
+h2 { color: #3399cc; 
+	font-family:"Georgia, Times New Roman, Serif"; 
+	text-shadow: 1px 1px 1px #ccc; }
+
+dt {color: #000033; font-weight: bold;}
+
+.resort {color: #000033; font-size: 1.25em;}
+
+footer {font-style: italic; 
+	font-family:" Georgia, Times New Roman, Times, Serif"; 
+	padding: 20px; font-size: 75%; margin-left: 190px; 
+	background-color: #ffffff; 
+	}
+
+h3 { color: #000033; 
+	font-family:"Georgia, Times New Roman, Serif"; }
+
+main {padding-left: 20px; padding-right: 20px;}
+main img {float: left; padding-right: 20px; padding-bottom: 20px;}
+
+
+#content { background: #ffffff; 
+		padding-top: 1px; 
+		padding-left: 30px; padding-right: 
+		20px; padding-bottom: 20px; 
+		margin-left: 190px;}
+#content img { float:left; padding-right: 20px; }
+#content ul { list-style-position: inside; }
+#contact { font-size: 90%; }
+
+table { border: 1px solid #3399CC; width: 80%; border-spacing: 0; }
+td, th { padding: 5px; border: 1px solid #3399CC; }
+td { text-align: center; }
+text { text-align: left; }
+tr:nth-of-type(even) { background-color: #F5FAFC; }
+
+label { float:left; display:block; width: 120px; padding-right: 30px; }
+input, textarea { display: block; margin-bottom: 20px; }
+label { float: none; text-align: left; }
+
+
+header, nav, main, footer {display: block;}
